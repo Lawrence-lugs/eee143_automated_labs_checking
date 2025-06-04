@@ -50,3 +50,4 @@ ucli.key
 *.swp
 *.swo
 *obj_dir*
+*filelist*
