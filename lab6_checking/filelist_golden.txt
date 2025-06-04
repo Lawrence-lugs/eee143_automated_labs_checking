@@ -1,0 +1,16 @@
+./tb/tb_main.sv
+./patched_files/Subtractor.v
+./golden_solution/verilog/arith/Adder.v
+./golden_solution/verilog/arith/Comparator.v
+./golden_solution/verilog/circuit/cursorDecoder.v
+./golden_solution/verilog/circuit/graphicsController.v
+./golden_solution/verilog/gates/AND_GATE.v
+./golden_solution/verilog/gates/AND_GATE_BUS.v
+./golden_solution/verilog/gates/OR_GATE_BUS.v
+./golden_solution/verilog/memory/D_FLIPFLOP.v
+./golden_solution/verilog/memory/REGISTER_FLIP_FLOP.v
+./golden_solution/verilog/plexers/Decoder_8.v
+./golden_solution/verilog/plexers/Demultiplexer_bus_8.v
+./golden_solution/verilog/plexers/Multiplexer_2.v
+./golden_solution/verilog/plexers/Multiplexer_bus_4.v
+./golden_solution/verilog/toplevel/logisimTopLevelShell.v

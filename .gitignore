@@ -1,0 +1,52 @@
+# C++ ignores
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Verilog ignores
+*.vcd
+*.vvp
+*.fst
+*.lxt
+*.lxt2
+*.vdb
+*.vpd
+*.wlf
+*.log
+
+# ModelSim/Questa generated files
+work/
+transcript
+*.wlf
+*.mpf
+*.mti
+
+# Simulation output
+simv*
+csrc/
+*.key
+*.vpd
+DVEfiles/
+ucli.key
+
+# Misc
+.DS_Store
+*.bak
+*~
+*.swp
+*.swo
+*obj_dir*
