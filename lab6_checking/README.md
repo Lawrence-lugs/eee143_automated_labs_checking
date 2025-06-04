@@ -2,8 +2,9 @@
 
 To check student works:
 
-1. turn student logisim into verilog
-2. `source run_simulation.sh <folder path here>`
+1. Turn student logisim into verilog
+2. Make sure to be in this directory
+3. `source run_simulation.sh <folder path here>`
 
 # Example
 

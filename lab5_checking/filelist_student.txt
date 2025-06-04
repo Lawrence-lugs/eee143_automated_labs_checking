@@ -1,0 +1,11 @@
+tb/tb_main.sv
+../patched_files/Subtractor.v
+golden_solution/movingdot/xyTracker/verilog/arith/Subtractor.v
+golden_solution/movingdot/xyTracker/verilog/circuit/threeBitAcc.v
+golden_solution/movingdot/xyTracker/verilog/circuit/udlrTranslation.v
+golden_solution/movingdot/xyTracker/verilog/circuit/xyTracker.v
+golden_solution/movingdot/xyTracker/verilog/gates/AND_GATE.v
+golden_solution/movingdot/xyTracker/verilog/gates/AND_GATE_3_INPUTS.v
+golden_solution/movingdot/xyTracker/verilog/gates/XOR_GATE_ONEHOT.v
+golden_solution/movingdot/xyTracker/verilog/memory/D_FLIPFLOP.v
+golden_solution/movingdot/xyTracker/verilog/toplevel/logisimTopLevelShell.v
