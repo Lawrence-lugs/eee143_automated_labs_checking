@@ -138,10 +138,20 @@ initial begin
     test = {w, d, d, d, w, space, w, d, d, space, w, s, e, space, a, a, s, space, s, s};
     do_test(test, 64'h0000000100000000, 100);
 
+    // Full functionality with wrong reset mode
+    $display("Full functionality with wrong reset mode test");
+    test = {e, w, d, d, d, w, space, w, d, d, space, w, s, e, space, a, a, s, space, s};
+    do_test(test, 64'h0000000200000000, 95);
+
     // No erase test - test writing
     $display("No erase test");
     test = {s, s, space, s, a, a, space, a, w, w, a, a, a, a, space, s, d, d, d, d};
     do_test(test, 64'h4080000000402000, 80);
+
+    // No erase with wrong reset mode
+    $display("No erase test with wrong reset mode");
+    test = {e, s, s, space, s, a, a, space, a, w, w, a, a, a, a, space, s, d, d, d};
+    do_test(test, 64'h4080000040002000, 80);
 
     // WASD test - test cursor control
     $display("WASD test");
